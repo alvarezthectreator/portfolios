@@ -188,7 +188,7 @@ const GLSLHills = ({
       1,
       10000
     );
-    const clock = new THREE.Clock();
+    const clock = new THREE.Timer();
     const plane = new Plane();
     let animationFrame = 0;
 
