@@ -2,20 +2,6 @@ import { useEffect, useRef, useState } from "react";
 
 const experiences = [
   {
-    period: "Feb 2025 - Present",
-    location: "United Kingdom",
-    role: "Software Technical Lead",
-    company: "TD Markets",
-    description: "Leading the development of scalable financial platforms, managing cross-functional teams, and ensuring high-quality software delivery.",
-  },
-  {
-    period: "Jun 2024 - Dec 2024",
-    location: "United Kingdom",
-    role: "Software Engineer",
-    company: "IntelliDigest",
-    description: "Developed innovative solutions for food waste management using modern web technologies and cloud platforms.",
-  },
-  {
     period: "Aug 2023 - Dec 2023",
     location: "Nigeria",
     role: "Software Developer (Contract)",
@@ -68,20 +54,6 @@ const experiences = [
     role: "Frontend Developer",
     company: "Digital Innovations",
     description: "Designed and implemented responsive user interfaces for various digital products, focusing on user experience.",
-  },
-  {
-    period: "Mar 2021 - Jul 2022",
-    location: "Canada",
-    role: "Junior Developer",
-    company: "StartUp Hub",
-    description: "Contributed to the development of startup projects, gaining hands-on experience in modern web technologies.",
-  },
-  {
-    period: "Sep 2020 - Feb 2021",
-    location: "Remote",
-    role: "Web Development Intern",
-    company: "CodeLab Academy",
-    description: "Assisted in building educational web applications, focusing on coding best practices and teamwork.",
   },
 ];
 
