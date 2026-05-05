@@ -18,8 +18,6 @@ export function Header() {
     { label: "About", href: "#about" },
   ];
 
-  const resumeLink = { label: "Resume", href: "/resume.pdf" };
-
   React.useEffect(() => {
     if (open) {
       document.body.style.overflow = "hidden";
@@ -133,4 +131,4 @@ function MobileMenu({
   );
 }
 
-const updatedLinks = [...links, resumeLink];
+const updatedLinks = links.filter(link => link.label !== "Resume");
