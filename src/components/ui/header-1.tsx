@@ -18,6 +18,8 @@ export function Header() {
     { label: "About", href: "#about" },
   ];
 
+  const resumeLink = { label: "Resume", href: "/resume.pdf" };
+
   React.useEffect(() => {
     if (open) {
       document.body.style.overflow = "hidden";
@@ -45,7 +47,7 @@ export function Header() {
           alvarez
         </a>
         <div className="hidden items-center gap-2 md:flex">
-          {links.map((link) => (
+          {updatedLinks.map((link) => (
             <a
               key={link.label}
               className={buttonVariants({ variant: "ghost" })}
@@ -71,7 +73,7 @@ export function Header() {
       </nav>
       <MobileMenu open={open} className="flex flex-col justify-between gap-2">
         <div className="grid gap-y-2">
-          {links.map((link) => (
+          {updatedLinks.map((link) => (
             <a
               key={link.label}
               className={buttonVariants({
@@ -130,3 +132,5 @@ function MobileMenu({
     document.body
   );
 }
+
+const updatedLinks = [...links, resumeLink];
