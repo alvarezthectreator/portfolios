@@ -4,7 +4,7 @@ export default function Footer() {
       <div className="text-center py-4">
         <button
           className="border border-white text-white px-4 py-2 rounded hover:bg-white hover:text-black"
-          onClick={() => window.open('/resume.pdf', '_blank')}
+          onClick={() => window.open('/software%20resume%20no.pdf', '_blank')}
         >
           View Resume
         </button>
