@@ -6,36 +6,82 @@ const experiences = [
     location: "United Kingdom",
     role: "Software Technical Lead",
     company: "TD Markets",
+    description: "Leading the development of scalable financial platforms, managing cross-functional teams, and ensuring high-quality software delivery.",
   },
   {
     period: "Jun 2024 - Dec 2024",
     location: "United Kingdom",
     role: "Software Engineer",
     company: "IntelliDigest",
+    description: "Developed innovative solutions for food waste management using modern web technologies and cloud platforms.",
+  },
+  {
+    period: "Aug 2023 - Dec 2023",
+    location: "Nigeria",
+    role: "Software Developer (Contract)",
+    company: "UNAG Services",
+    description:
+      "Architected and delivered a full dynamic website from scratch as the sole frontend engineer, completing the project 2 weeks ahead of schedule. Designed and implemented scalable frontend architecture using React and component-based design patterns, improving long-term maintainability.",
+  },
+  {
+    period: "2026",
+    location: "Remote",
+    role: "Software Developer",
+    company: "Mocktail Canapes",
+    description:
+      "Designed and developed the complete website for Mocktail Canapes, a hospitality brand, from concept to live production. Built a responsive, mobile-first layout with smooth UX to showcase the brand's menu and services, improving customer engagement.",
+  },
+  {
+    period: "2025",
+    location: "Remote",
+    role: "Software Developer",
+    company: "Mells Healing",
+    description:
+      "Designed and developed a fully functional appointment booking website for Mells Healing, a massage therapy company, from concept to live production. Built an intuitive booking flow with real-time availability, service selection, and confirmation notifications.",
+  },
+  {
+    period: "2025",
+    location: "Remote",
+    role: "Frontend Developer",
+    company: "Velosityautologistic",
+    description:
+      "Built and delivered the complete frontend for Velosityautologistic, a logistics company, from design to production as the sole engineer. Developed key features including shipment tracking, service request forms, and a dynamic quote calculator.",
+  },
+  {
+    period: "Feb 2023 – May 2023",
+    location: "Remote",
+    role: "UI/UX Designer",
+    company: "Falco (Startup)",
+    description:
+      "Designed user interfaces for web and mobile applications, producing pixel-perfect, accessible mockups aligned with WCAG guidelines. Created wireframes and interactive prototypes in Figma, reducing design-to-development handoff time.",
   },
   {
     period: "Jan 2023 - May 2024",
     location: "Remote",
     role: "Full Stack Developer",
     company: "TechCorp Solutions",
+    description: "Built and maintained full-stack applications, ensuring seamless integration between frontend and backend systems.",
   },
   {
     period: "Aug 2022 - Dec 2022",
     location: "United States",
     role: "Frontend Developer",
     company: "Digital Innovations",
+    description: "Designed and implemented responsive user interfaces for various digital products, focusing on user experience.",
   },
   {
     period: "Mar 2021 - Jul 2022",
     location: "Canada",
     role: "Junior Developer",
     company: "StartUp Hub",
+    description: "Contributed to the development of startup projects, gaining hands-on experience in modern web technologies.",
   },
   {
     period: "Sep 2020 - Feb 2021",
     location: "Remote",
     role: "Web Development Intern",
     company: "CodeLab Academy",
+    description: "Assisted in building educational web applications, focusing on coding best practices and teamwork.",
   },
 ];
 

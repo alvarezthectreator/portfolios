@@ -42,7 +42,7 @@ const StatItem = ({ value, label }: { value: string; label: string }) => (
 );
 
 export default function HeroSection({
-  badge = "Hello there, I am Wilson",
+  badge = "Hello there, I Alvarez",
   titleLead = "Lead Software",
   titleAccent = "Engineer",
   titleTail = "Who Builds Trust",

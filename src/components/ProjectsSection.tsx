@@ -6,53 +6,114 @@ import projectThree from "../../1c.png";
 const projects = [
   {
     image: projectOne,
-    alt: "Dwello Real Estate Company",
-    title: "Dwello Real Estate Company",
+    alt: "TD Markets",
+    title: "Software Technical Lead",
     description:
-      "A polished real estate experience designed to present listings, highlight trust, and help potential clients explore properties through a clean and conversion-focused interface.",
-    tags: ["PHP", "Tailwind", "CSS", "HTML"],
+      "Feb 2025 - Present\nUnited Kingdom\nLeading the development of scalable financial platforms, managing cross-functional teams, and ensuring high-quality software delivery.",
+    tags: ["Leadership", "Scalability", "Finance", "Agile"],
     githubUrl: "#",
     demoUrl: "#",
   },
   {
     image: projectTwo,
-    alt: "Chat App Screenshot",
-    title: "AX Gas CNG Conversion firm",
+    alt: "IntelliDigest",
+    title: "Software Engineer",
     description:
-      "A collaborative chat application focused on fast communication, clean conversation flows, and responsive performance across desktop and mobile devices.",
-    tags: ["HTML", "Django", "Socket.IO", "CSS"],
+      "Jun 2024 - Dec 2024\nUnited Kingdom\nDeveloped innovative solutions for food waste management using modern web technologies and cloud platforms.",
+    tags: ["Cloud", "Sustainability", "Web Development", "Innovation"],
     githubUrl: "#",
     demoUrl: "#",
   },
   {
     image: projectThree,
-    alt: "Portfolio Project Screenshot",
-    title: "Mocktail Canapes",
+    alt: "TechCorp Solutions",
+    title: "Full Stack Developer",
     description:
-      "A personal brand experience designed to present case studies, technical credibility, and polished UI interactions in a way that feels intentional and modern.",
-    tags: ["React", "Tailwind", "TypeScript", "Vite"],
+      "Jan 2023 - May 2024\nRemote\nBuilt and maintained full-stack applications, ensuring seamless integration between frontend and backend systems.",
+    tags: ["Full Stack", "Remote", "Integration", "APIs"],
     githubUrl: "#",
     demoUrl: "#",
   },
   {
     image: projectThree,
-    alt: "Product Dashboard Screenshot",
-    title: "Analytics Dashboard for Product and Growth Teams",
+    alt: "Digital Innovations",
+    title: "Frontend Developer",
     description:
-      "An internal dashboard that surfaces key product metrics, user behavior trends, and growth insights through a streamlined reporting interface.",
-    tags: ["React", "Charts", "API", "Dashboard"],
+      "Aug 2022 - Dec 2022\nUnited States\nDesigned and implemented responsive user interfaces for various digital products, focusing on user experience.",
+    tags: ["Frontend", "UI/UX", "Responsive Design", "React"],
     githubUrl: "#",
     demoUrl: "#",
   },
   {
     image: projectOne,
-    alt: "Frontend Landing Page Screenshot",
-    title: "Conversion-Focused Landing Page System",
+    alt: "StartUp Hub",
+    title: "Junior Developer",
     description:
-      "A modular landing page system built to help teams launch campaigns quickly while maintaining strong visual consistency and conversion-focused structure.",
-    tags: ["UI Design", "Frontend", "Landing Page", "CSS"],
+      "Mar 2021 - Jul 2022\nCanada\nContributed to the development of startup projects, gaining hands-on experience in modern web technologies.",
+    tags: ["Junior", "Startups", "Learning", "Web Development"],
     githubUrl: "#",
     demoUrl: "#",
+  },
+  {
+    image: projectOne,
+    alt: "CodeLab Academy",
+    title: "Web Development Intern",
+    description:
+      "Sep 2020 - Feb 2021\nRemote\nAssisted in building educational web applications, focusing on coding best practices and teamwork.",
+    tags: ["Intern", "Education", "Teamwork", "Web Development"],
+    githubUrl: "#",
+    demoUrl: "#",
+  },
+];
+
+const experiences = [
+  {
+    title: "Software Technical Lead",
+    company: "TD Markets",
+    location: "United Kingdom",
+    date: "Feb 2025 - Present",
+    description:
+      "Leading the development of scalable financial platforms, managing cross-functional teams, and ensuring high-quality software delivery.",
+  },
+  {
+    title: "Software Engineer",
+    company: "IntelliDigest",
+    location: "United Kingdom",
+    date: "Jun 2024 - Dec 2024",
+    description:
+      "Developed innovative solutions for food waste management using modern web technologies and cloud platforms.",
+  },
+  {
+    title: "Full Stack Developer",
+    company: "TechCorp Solutions",
+    location: "Remote",
+    date: "Jan 2023 - May 2024",
+    description:
+      "Built and maintained full-stack applications, ensuring seamless integration between frontend and backend systems.",
+  },
+  {
+    title: "Frontend Developer",
+    company: "Digital Innovations",
+    location: "United States",
+    date: "Aug 2022 - Dec 2022",
+    description:
+      "Designed and implemented responsive user interfaces for various digital products, focusing on user experience.",
+  },
+  {
+    title: "Junior Developer",
+    company: "StartUp Hub",
+    location: "Canada",
+    date: "Mar 2021 - Jul 2022",
+    description:
+      "Contributed to the development of startup projects, gaining hands-on experience in modern web technologies.",
+  },
+  {
+    title: "Web Development Intern",
+    company: "CodeLab Academy",
+    location: "Remote",
+    date: "Sep 2020 - Feb 2021",
+    description:
+      "Assisted in building educational web applications, focusing on coding best practices and teamwork.",
   },
 ];
 

@@ -188,7 +188,9 @@ const GLSLHills = ({
       1,
       10000
     );
-    const clock = new THREE.Timer();
+
+    // FIX 1: Use THREE.Clock instead of THREE.Timer (Timer doesn't exist in most versions)
+    const clock = new THREE.Clock();
     const plane = new Plane();
     let animationFrame = 0;
 
@@ -201,13 +203,16 @@ const GLSLHills = ({
     };
 
     const render = () => {
-      plane.render(clock.getDelta());
+      // FIX 2: Cap delta to avoid large jumps when tab is backgrounded
+      const delta = Math.min(clock.getDelta(), 0.05);
+      plane.render(delta);
       renderer.render(scene, camera);
     };
 
+    // FIX 3: Store RAF id BEFORE render so cleanup always has a valid id
     const renderLoop = () => {
-      render();
       animationFrame = window.requestAnimationFrame(renderLoop);
+      render();
     };
 
     renderer.setSize(window.innerWidth, window.innerHeight);
@@ -226,7 +231,9 @@ const GLSLHills = ({
       plane.mesh.geometry.dispose();
 
       if (Array.isArray(plane.mesh.material)) {
-        plane.mesh.material.forEach((material: THREE.Material) => material.dispose());
+        plane.mesh.material.forEach((material: THREE.Material) =>
+          material.dispose()
+        );
       } else {
         plane.mesh.material.dispose();
       }

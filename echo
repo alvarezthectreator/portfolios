@@ -1,0 +1,3 @@
+grep -n "OPENAI_API_KEY" ~/.zsh* ~/.bash* 2>/dev/null
+reset
+exec zsh
